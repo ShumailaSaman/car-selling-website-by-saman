@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Blog Page - MOTOB</title>
+
+  <!-- swiper link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- customer css file -->
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- boxicon csn link -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+<body>
+
+  <!-- top header section strt -->
+  <div class="top-header">
+    <div class="out-box">
+      <div class="inside-box">
+        <div class="col-1">
+          <span><i class='bx bxs-envelope'></i>info@gmail.com</span>
+          <span><i class='bx bxs-phone-call'></i>+92 123 6549 7890</span>
+          <span><i class='bx bxs-alarm'></i>Sun - Fri(08 Am - 10 Pm)</span>
+        </div>
+
+        <div class="col-2">
+          <a href="#"><i class='bx bx-arrow-to-right'></i>Login</a>
+          <a href="#"><i class='bx bxs-user'></i>Register</a>
+          <span>Follow Us:</span>
+          <div class="social">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-linkedin'></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar section start -->
+    <header class="header">
+      <div class="logo">
+        <img src="/img/logo/logo-light.png" alt="">
+      </div>
+      <nav>
+        <div class="navbar">
+          <ul class="navLink">
+            <li><a href="/index.html" class="active">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="#">Inventory<i class='bx bx-chevron-down'></i></a>
+              <ul class="drop-down">
+                <li><a href="/inventory-grid.html">Inventory Grid</a></li>
+                <li><a href="/inventory-list.html">Inventory List</a></li>
+                <li><a href="/inventory-single.html">Inventory Single</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Pages<i class='bx bx-chevron-down'></i></a>
+              <ul class="drop-down">
+                <li><a href="/about.html">About Us</a></li>
+
+                <li><a href="#">My Account<i class='bx bx-chevron-down chev'></i></a>
+                  <ul class="drop-down-three">
+                    <li><a href="/My-Account/dashboard.html">Dashboard</a></li>
+                    <li><a href="/My-Account/profile.html">My Profile</a></li>
+                    <li><a href="/My-Account/listing.html">My Listing</a></li>
+                    <li><a href="/My-Account/addListing.html">Add Listing</a></li>
+                    <li><a href="/My-Account/favourite.html">My Favourites</a></li>
+
+                  </ul>
+                </li>
+                <li><a href="#">Authentication<i class='bx bx-chevron-down chev'></i></a>
+                  <ul class="drop-down-four">
+                    <li><a href="/signup/login.html">Login</a></li>
+                    <li><a href="/signup/logout.html">Register</a></li>
+                    <li><a href="/signup/reset.html">Forgot Password</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Services<i class='bx bx-chevron-down chev'></i></a>
+                  <ul class="drop-down-five">
+                    <li><a href="/services/services.html">Services</a></li>
+                    <li><a href="/services/services_single.html">Services Single</a></li>
+                  </ul>
+                </li>
+
+                <li><a href="#">Extra Pages<i class='bx bx-chevron-down chev'></i></a>
+                  <ul class="drop-down-seven">
+                    <li><a href="/E-Pgaes/404error.html">404 Error</a></li>
+                    <li><a href="/E-Pgaes/comingson.html">Coming Soon</a></li>
+                    <li><a href="/E-Pgaes/termsOfService.html">Terms Of Services</a></li>
+                    <li><a href="/E-Pgaes/privacypolicy.html">Privacy Policy</a></li>
+                  </ul>
+                </li>
+                <li><a href="/team.html">Our Team</a></li>
+                <li><a href="/price.html">Precising Plan</a></li>
+                <li><a href="/calculator.html">Calculator</a></li>
+                <li><a href="/question.html">FAQ</a></li>
+                <li><a href="/testimonial.html">Testimonials</a></li>
+              </ul>
+
+            </li>
+            <li><a href="#">Shop<i class='bx bx-chevron-down'></i></a>
+              <ul class="drop-down">
+                <li><a href="/shop/shop.html">Shop</a></li>
+                <li><a href="/shop/shop_cart.html">Shop Cart</a></li>
+                <li><a href="/shop/shop_checkout.html">Shop Checkout</a></li>
+                <li><a href="/shop/shop_single.html">Shop Single</a></li>
+              </ul>
+
+            </li>
+            <li><a href="#">Blog<i class='bx bx-chevron-down'></i></a>
+              <ul class="drop-down">
+                <li><a href="/blog/blog.html">Blog</a></li>
+                <li><a href="/blog/blog_single.html">Blog Single</a></li>
+              </ul>
+
+            </li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="others">
+          <i class='bx bx-search'></i>
+          <i class='bx bx-cart-download cart'></i>
+          <button type="button">
+            <div class="addBtn"><i class='bx bx-plus-circle'></i>Add Listing
+          </button>
+          <i class='bx bx-menu-alt-left' id="menuBtn"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- Blog Page Section Start-->
+    <div class="inventory">
+      <h2>Our Blog</h2>
+      <div class="link">
+        <a href="/index.html">Home</a>
+        <span>>>></span>
+        <p>Blog Page</p>
+      </div>
+    </div>
+    <!-- Blog  Section Start-->
+
+    <section class="blog">
+      <h4><i class='bx bx-car'></i>Our Blog</h4>
+      <h1>Latest News & <span>Blog</span></h1>
+
+      <div class="blog-row">
+        <div class="blog-col">
+          <div class="image">
+            <img src="/img/blog/01.jpg" alt="">
+          </div>
+          <div class="date">
+            <p><i class="bx bxs-user"></i> By Alicia Davis</p>
+            <p><i class="bx bx-calendar"></i> January 29, 2024</p>
+          </div>
+          <h5>There Are Many Variations of Passage Available.</h5>
+          <a href="#">Read More <i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+        <div class="blog-col">
+          <div class="image">
+            <img src="/img/blog/02.jpg" alt="">
+          </div>
+          <div class="date">
+            <p><i class="bx bxs-user"></i> By Alicia Davis</p>
+            <p><i class="bx bx-calendar"></i> January 29, 2024</p>
+          </div>
+          <h5>There Are Many Variations of Passage Available.</h5>
+          <a href="#">Read More <i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+        <div class="blog-col">
+          <div class="image">
+            <img src="/img/blog/03.jpg" alt="">
+          </div>
+          <div class="date">
+            <p><i class="bx bxs-user"></i> By Alicia Davis</p>
+            <p><i class="bx bx-calendar"></i> January 29, 2024</p>
+          </div>
+          <h5>There Are Many Variations of Passage Available.</h5>
+          <a href="#">Read More <i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+        <div class="blog-col">
+          <div class="image">
+            <img src="/img/blog/02.jpg" alt="">
+          </div>
+          <div class="date">
+            <p><i class="bx bxs-user"></i> By Alicia Davis</p>
+            <p><i class="bx bx-calendar"></i> January 29, 2024</p>
+          </div>
+          <h5>There Are Many Variations of Passage Available.</h5>
+          <a href="#">Read More <i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+        <div class="blog-col">
+          <div class="image">
+            <img src="/img/blog/03.jpg" alt="">
+          </div>
+          <div class="date">
+            <p><i class="bx bxs-user"></i> By Alicia Davis</p>
+            <p><i class="bx bx-calendar"></i> January 29, 2024</p>
+          </div>
+          <h5>There Are Many Variations of Passage Available.</h5>
+          <a href="#">Read More <i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+        <div class="blog-col">
+          <div class="image">
+            <img src="/img/blog/01.jpg" alt="">
+          </div>
+          <div class="date">
+            <p><i class="bx bxs-user"></i> By Alicia Davis</p>
+            <p><i class="bx bx-calendar"></i> January 29, 2024</p>
+          </div>
+          <h5>There Are Many Variations of Passage Available.</h5>
+          <a href="#">Read More <i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- footer section start -->
+    <div class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <img src="/img/logo/logo.png" alt="">
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tenetur cupiditate veniam totam
+            accusantium.</p>
+          <span><i class="bx bx-phone"></i>+92 343 1211 4342</span>
+          <span><i class="bx bx-location-plus"></i>25/B Milford Road, New Yourk</span>
+          <span><i class="bx bx-envelope"></i>info@gmail.com</span>
+
+        </div>
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <a href="#"><i class='bx bx-chevron-right'></i>ABout Us</a>
+          <a href="#"><i class='bx bx-chevron-right'></i>Update News</a>
+          <a href="#"><i class='bx bx-chevron-right'></i>Testimonials</a>
+          <a href="#"><i class='bx bx-chevron-right'></i>Terms of Services</a>
+          <a href="#"><i class='bx bx-chevron-right'></i>Privacy Policy</a>
+          <a href="#"><i class='bx bx-chevron-right'></i>Our Dealers</a>
+        </div>
+
+        <div class="footer-col">
+          <h5>Support Centre</h5>
+          <a href="#"><i class='bx bx-chevron-right'></i>FAQ</a>
+          <a href="#"><i class='bx bx-chevron-right'></i>Affiliates</a>
+          <a href="#"><i class='bx bx-chevron-right'></i>Booking Tips</a>
+          <a href="#"><i class='bx bx-chevron-right'></i>Sell Vehicle</a>
+          <a href="#"><i class='bx bx-chevron-right'></i>Contact Us</a>
+          <a href="#"><i class='bx bx-chevron-right'></i>Sitmap</a>
+        </div>
+
+
+        <div class="footer-col">
+          <h5>Newsletter</h5>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <input type="text" placeholder="Your Email">
+          <button>Subscribe Now <i class='bx bxl-telegram'></i></button>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; Copyright 2023 <span>MOTOB</span> All Right Reserved.</p>
+        <div class="social">
+          <i class="bx bxl-facebook"></i>
+          <i class="bx bxl-twitter"></i>
+          <i class="bx bxl-linkedin"></i>
+          <i class="bx bxl-instagram"></i>
+        </div>
+      </div>
+
+      <!-- scroll Top Section Strt -->
+      <a href="#" class="scrollBtn" aria-label="Scroll to top">
+        <i class='bx bx-chevrons-up'></i>
+      </a>
+
+    </div>
+
+    <!-- Swiper JS link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Customer Script files -->
+    <script src="/js-script.js"></script>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>

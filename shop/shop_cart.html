@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Cart Page - MOTOB</title>
+
+    <!-- Boxicons CDN link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Swiper link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Customer CSS file -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Top header section start -->
+    <div class="top-header">
+        <div class="out-box">
+            <div class="inside-box">
+                <div class="col-1">
+                    <span><i class='bx bxs-envelope'></i>info@gmail.com</span>
+                    <span><i class='bx bxs-phone-call'></i>+92 123 6549 7890</span>
+                    <span><i class='bx bxs-alarm'></i>Sun - Fri (08 AM - 10 PM)</span>
+                </div>
+
+                <div class="col-2">
+                    <a href="#"><i class='bx bx-arrow-to-right'></i>Login</a>
+                    <a href="#"><i class='bx bxs-user'></i>Register</a>
+                    <span>Follow Us:</span>
+                    <div class="social">
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-twitter'></i>
+                        <i class='bx bxl-instagram'></i>
+                        <i class='bx bxl-linkedin'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar section start -->
+    <header class="header">
+        <div class="logo">
+            <img src="/img/logo/logo-light.png" alt="">
+        </div>
+        <nav>
+            <div class="navbar">
+                <ul class="navLink">
+                    <li><a href="/index.html" class="active">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="#">Inventory<i class='bx bx-chevron-down'></i></a>
+                        <ul class="drop-down">
+                            <li><a href="/inventory-grid.html">Inventory Grid</a></li>
+                            <li><a href="/inventory-list.html">Inventory List</a></li>
+                            <li><a href="/inventory-single.html">Inventory Single</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pages<i class='bx bx-chevron-down'></i></a>
+                        <ul class="drop-down">
+                            <li><a href="/about.html">About Us</a></li>
+
+                            <li><a href="#">My Account<i class='bx bx-chevron-down chev'></i></a>
+                                <ul class="drop-down-three">
+                                    <li><a href="/My-Account/dashboard.html">Dashboard</a></li>
+                                    <li><a href="/My-Account/profile.html">My Profile</a></li>
+                                    <li><a href="/My-Account/listing.html">My Listing</a></li>
+                                    <li><a href="/My-Account/addListing.html">Add Listing</a></li>
+                                    <li><a href="/My-Account/favourite.html">My Favourites</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="#">Authentication<i class='bx bx-chevron-down chev'></i></a>
+                                <ul class="drop-down-four">
+                                    <li><a href="/signup/login.html">Login</a></li>
+                                    <li><a href="/signup/logout.html">Register</a></li>
+                                    <li><a href="/signup/reset.html">Forgot Password</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Services<i class='bx bx-chevron-down chev'></i></a>
+                                <ul class="drop-down-five">
+                                    <li><a href="/services/services.html">Services</a></li>
+                                    <li><a href="/services/services_single.html">Services Single</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="#">Extra Pages<i class='bx bx-chevron-down chev'></i></a>
+                                <ul class="drop-down-seven">
+                                    <li><a href="/E-Pgaes/404error.html">404 Error</a></li>
+                                    <li><a href="/E-Pgaes/comingson.html">Coming Soon</a></li>
+                                    <li><a href="/E-Pgaes/termsOfService.html">Terms Of Services</a></li>
+                                    <li><a href="/E-Pgaes/privacypolicy.html">Privacy Policy</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/team.html">Our Team</a></li>
+                            <li><a href="/price.html">Precising Plan</a></li>
+                            <li><a href="/calculator.html">Calculator</a></li>
+                            <li><a href="/question.html">FAQ</a></li>
+                            <li><a href="/testimonial.html">Testimonials</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#">Shop<i class='bx bx-chevron-down'></i></a>
+                        <ul class="drop-down">
+                            <li><a href="/shop/shop.html">Shop</a></li>
+                            <li><a href="/shop/shop_cart.html">Shop Cart</a></li>
+                            <li><a href="/shop/shop_checkout.html">Shop Checkout</a></li>
+                            <li><a href="/shop/shop_single.html">Shop Single</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#">Blog<i class='bx bx-chevron-down'></i></a>
+                        <ul class="drop-down">
+                            <li><a href="/blog/blog.html">Blog</a></li>
+                            <li><a href="/blog/blog_single.html">Blog Single</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="others">
+                <i class='bx bx-search'></i>
+                <i class='bx bx-cart-download cart'></i>
+                <button type="button">
+                    <div class="addBtn"><i class='bx bx-plus-circle'></i>Add Listing
+                </button>
+                <i class='bx bx-menu-alt-left' id="menuBtn"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Shop cart Page Section Start-->
+    <div class="inventory">
+        <h2>Shop Cart</h2>
+        <div class="link">
+            <a href="/index.html">Home</a>
+            <span>>>></span>
+            <p>Shop Cart Page</p>
+        </div>
+    </div>
+
+    <!-- Shop cart Section Start-->
+    <div class="shop_cart">
+        <table>
+            <tr class="topic">
+                <th>Image</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Sub Total</th>
+            </tr>
+
+            <tr class="text">
+                <td>
+                    <img src="/img/shop/1.PNG" alt="">
+                </td>
+                <td>Car Engine Parts</td>
+                <td>$1,500</td>
+                <td>
+                    <label for="quantity1">Quantity:</label>
+                    <input class="quantity" id="quantity1" type="number" value="1" min="1" max="100" step="1">
+                </td>
+                <td class="subTotal">
+                    <p>$1,500</p>
+                    <i class="bx bx-x"></i> <!-- This should display the icon -->
+                </td>
+            </tr>
+            <tr class="text">
+                <td>
+                    <img src="/img/shop/2.PNG" alt="">
+                </td>
+                <td>Car Engine Parts</td>
+                <td>$1,500</td>
+                <td>
+                    <label for="quantity2">Quantity:</label>
+                    <input class="quantity" id="quantity2" type="number" value="1" min="1" max="100" step="1">
+                </td>
+                <td class="subTotal">
+                    <p>$1,500</p>
+                    <i class="bx bx-x"></i> <!-- This should display the icon -->
+                </td>
+            </tr>
+            <tr class="text">
+                <td>
+                    <img src="/img/shop/3.PNG" alt="">
+                </td>
+                <td>Car Engine Parts</td>
+                <td>$1,500</td>
+                <td>
+                    <label for="quantity3">Quantity:</label>
+                    <input class="quantity" id="quantity3" type="number" value="1" min="1" max="100" step="1">
+                </td>
+                <td class="subTotal">
+                    <p>$1,500</p>
+                    <i class="bx bx-x"></i> <!-- This should display the icon -->
+                </td>
+            </tr>
+            <!-- Repeat for other rows -->
+        </table>
+    </div>
+
+    <!-- Footer section start -->
+    <div class="footer">
+        <div class="footer-main">
+            <div class="col-1">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, facilis.</p>
+                <div class="social">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+            </div>
+            <div class="col-2">
+                <h2>Useful Links</h2>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h2>Contact Us</h2>
+                <span>+92 123 6549 7890</span>
+                <span>info@gmail.com</span>
+                <span>Sun - Fri (08 AM - 10 PM)</span>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 MOTOB. All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
